@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0B2447;
+    padding: 1rem 1.5rem;
+}
+
+.nav-logo {
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 3rem;
+}
+
+.nav-link{
+    font-size: 19px;
+
+    color: white;
+}
+
+.nav-link:hover{
+    color: #576CBC;
+}
+
+
+/* Blog styles */
+.blog {
+	margin: 50px auto;
+	max-width: 800px;
+}
+
+.blog h1 {
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 20px;
+  color: #19376D;
+}
+
+.blog .post {
+	border: 1px solid #ccc;
+	background-color: #fff;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+
+.blog .post h2 {
+	font-size: 24px;
+	margin-top: 0;
+	margin-bottom: 10px;
+  color: #223e72;
+}
+
+.content{
+  color: #1b1824;
+}
+
+.blog .post .meta {
+	font-size: 16px;
+	color: #999;
+	margin-bottom: 10px;
+}
+
+.blog .post .meta span {
+	margin-right: 10px;
+}
+
+.blog .post .content {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.blog .post .read-more {
+	display: inline-block;
+	background-color: #576CBC;
+	color: #fff;
+	padding: 10px;
+	margin-top: 20px;
+	font-size: 16px;
+	text-decoration: none;
+	transition: all 0.3s ease; /* add transition for hover effect */
+}
+
+.blog .post .read-more:hover {
+	background-color: #555;
+}
+
+/* Lecturer page styles */
+.lecturers {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lecturer-header {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    color: #19376D;
+    }
+  
+  .lecturer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .lecturer:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .lecturer img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 40px;
+
+  }
+  
+  .lecturer-info {
+    flex-grow: 1;
+    padding: 30px;
+    color: #4B4B4B;
+  }
+  
+  .lecturer-info h2 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #223e72;
+  }
+  
+  .lecturer-info p {
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .lecturer-info ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .lecturer-info li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .lecturer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .lecturer img {
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+  
+    .lecturer-info {
+      padding: 20px;
+      text-align: center;
+    }
+  }
+  
